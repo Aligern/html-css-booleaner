@@ -1,3 +1,8 @@
+main, aside {
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
 #testata {
    background-color: #20A9E5;
    background-image: url("../img/img/pattern.png");
@@ -7,6 +12,7 @@
 #logo {
    height: 60px;
    padding-top: 100px;
+   margin-left: 100px;
 }
 
 #span {
@@ -68,3 +74,4 @@
    padding: 0px;
    margin: 0px;
 }
+
