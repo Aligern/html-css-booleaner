@@ -6,7 +6,7 @@ main, aside {
 #testata {
    background-color: #20A9E5;
    background-image: url("../img/img/pattern.png");
-   background-repeat: no-repeat;
+   background-repeat: repeat;
 }
 
 #logo {
