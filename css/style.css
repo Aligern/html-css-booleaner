@@ -38,7 +38,19 @@
 }
 
 .descrizione {
+   width: 320px;
+   height: 300px;
    color: white;
-   position: absolute;
-   margin-left: 5%;
+   background-image: url(../img/img/monitor.jpg);
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+.descrizione2 {
+   width: 320px;
+   height: 300px;
+   color: white;
+   background-image: url(../img/img/graph.jpg);
+   background-repeat: no-repeat;
+   text-align: center;
 }
