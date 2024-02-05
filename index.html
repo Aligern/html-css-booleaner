@@ -8,9 +8,11 @@
 </head>
 
 <body>
-    <header>
-        <!-- inseriamo immagine in background -->
-        <h2>The Booleaner</h2>
+    <!-- inseriamo immagine in background -->
+    <header id="testata">
+        <div>
+            <img id="logo" src="./img/img/logo.svg" alt="The Booleaner">
+        </div>
     </header>
     <!-- inserisco content principale -->
     <main>
@@ -18,14 +20,16 @@
         <section>
             <div>
                 <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                <span> Scritto da The Booleaner</span><br>
-                <span>il 10/10/2020</span>
+            </div>
+            <div>
+                <span class="other"> Scritto da <span id="span">The Booleaner</span></span><br>
+                <span class="other">il 10/10/2020</span>
             </div>
             <div>
                 <img src="img/img/tim-1.jpg" alt="Tim Berners-Lee">
                 <img src="img/img/tim-2.jpg" alt="Tim Berners-Lee">
                 <!-- inseriamo la didascalia delle img -->
-                <dd>1st Photo: Johm S. and James L. Knight Foundation, by Scott Henrichsen</dd>
+                <dd class="">1st Photo: Johm S. and James L. Knight Foundation, by Scott Henrichsen</dd>
                 <dd>2nd Photo: Wikimedia, by Paul Clarke</dd>
             </div>
         </section>  
@@ -35,7 +39,7 @@
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non porro tempora laborum ab, <mark>libero quisquam beatae reiciendis quam quae ut odit animi, in sint fugiat nemo.</mark> Modi totam consequuntur, magnam aliquam magni delectus placeat nemo voluptate? Doloribus eveniet voluptatibus sed magnam totam. Atque eligendi repudiandae, enim quae sunt facilis quia!
                 </p>
-                <ul>
+                <ul class="list">
                     <li>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vero at officia quaerat eveniet excepturi nulla, nesciunt doloribus magni aliquam?
                     </li>
@@ -53,7 +57,7 @@
             <div>
                 <!-- utilizziamo una table -->
                 <table>
-                    <thead>
+                    <thead id="titolo-table">
                         <tr>
                             <th>
                                 Lorem ipsum dolor
@@ -67,7 +71,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="riga-table">
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, omnis tempore neque molestiae fuga, quaerat, iure saepe praesentium animi distinctio illo pariatur accusantium culpa voluptates at sapiente ea. Labore incidunt eum ipsa eaque velit eos aperiam repellendus numquam error deleniti.</td>
@@ -77,7 +81,7 @@
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio voluptatum quo excepturi dicta saepe alias sunt ipsam adipisci vero, perferendis voluptatem consectetur commodi expedita necessitatibus incidunt eius odit nam, sequi voluptas? Nobis quaerat earum magni consectetur, veritatis consequuntur atque!</td>
                         </tr>
-                        <tr>
+                        <tr class="riga-table">
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consectetur fugit quibusdam eligendi, animi vero officiis impedit alias tenetur ad cum adipisci neque, ab libero, quod cumque sapiente minima? Ipsa nihil autem sequi suscipit sint sed facere voluptatibus quia illo!</td>
@@ -93,16 +97,23 @@
         </section>
     </main>
 
-    <footer>
+    <aside>
         <!-- sezione 4 -->
         <section>
             <div>
-                <span>
+                <span class="other">
                     Potrebbero Interessarti
                 </span>
             </div>
+            <div>
+                <img src="img/img/monitor.jpg" alt="monitor">
+                <div class="descrizione"> Lorem ipsum dolor </div>
+            </div>
+            <div>
+                <img src="img/img/graph.jpg" alt="graph">
+            </div>
         </section>
-    </footer>
+    </aside>
 
 </body>
 </html>

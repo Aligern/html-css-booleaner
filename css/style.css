@@ -1,0 +1,44 @@
+#testata {
+   background-color: #20A9E5;
+   background-image: url("../img/img/pattern.png");
+   background-repeat;
+}
+
+#logo {
+   height: 60px;
+   padding-top: 100px;
+}
+
+#span {
+   color: aqua;
+}
+
+.other {
+   color: gray;
+}
+
+.list {
+   padding-left: 1%;
+}
+
+/* Differenziamo i colori nella tabella*/
+#titolo-table {
+   background-color: #20A9E5;
+   color: white;
+}
+ /* Aggiungiamo colore sulle righe di tabella */
+.riga-table {
+   background-color: #B1E5F2;
+}
+
+#img {
+   width: 100%;
+   height: 100%;
+   background-image: url("../img/img/monitor.jpg");
+}
+
+.descrizione {
+   color: white;
+   position: absolute;
+   margin-left: 5%;
+}
